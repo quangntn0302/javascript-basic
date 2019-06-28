@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.thanhxanh{
+    height: 40px;
+    background: #3b5998;
+    position: relative;
+}
+
+.motphantu{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+}
+
+.tamgiac{   
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icontamgiac{
+    font-size: 20px;
+}
+
+.danhsach{
+    width: 200px;
+    position: absolute;
+    top: 32px;
+    right: -15px;
+    opacity: 0;
+}
+
+.danhsach ul li{
+    background-color: white;
+    cursor: pointer;
+}
+
+.danhsach ul li:hover{
+    background-color: #3b5998;
+    color: white;
+}
+
+.danhsachhien{
+    opacity: 1;
+}
+
+.danhsach:after{
+    content: "\f0d8";
+    font: normal normal normal 20px/1 FontAwesome;
+    position: absolute;
+    top: -16px;
+    right: 15px;
+    color: white;
+}
+
+.doimau{
+    color: white;
+}
